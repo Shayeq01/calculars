@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bg{
+    background-color: rgba(33, 33, 33, 0.9);
+}
+.input_bg{
+    background-color: #212121 !important;
+}
+
+.bg_dark{
+    background-color: #1c1c1c
+}
+
+.message_sender{
+    background-color: #3797f0;
+}
+
+.center{
+    color: white;
+    text-align: center;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.nothing_display{
+    display: none;
+}
+
+.fixed_box{
+    position: fixed;
+}
+
+.hidden{
+    display:none;
+}
+
+
+.div_centrify{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.min_height_complete{
+    min-height: 100vh;
+}
+
+.complete_height{
+    min-height: 100vh;
+}
+
+.full_height{
+    height: 100%
+}
+
+.complete_width{
+    width: 100%
+}
+
+.no_resize{
+    resize: none;;
+}
+
+.text{
+    color: white;
+}
+
+.align_center{
+    text-align: center;
+}
+
+.flex_different{
+    flex-direction: column;
+}
+
+.standard_padding{
+    padding: 14px;
+}
+
+.no_link:hover{
+    text-decoration: none;
+}
+
+.link_button_main{
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.standard_margin_left{
+    margin-left: 12px;
+}
+
+.standard_margin_top{
+    margin-top: 12px;
+}
+
+.margin_vertical_auto{
+    margin: auto 0;
+}
+
+.textbox_radius{
+    border-radius: 12px;
+}
+
+.border_radius{
+    border-radius: 100px;
+}
+
+.no_border{border: none}
+
+.navbar{
+    font-size: 1.5rem;
+}
+
+.heading_size{
+    font-size: 3rem;
+}
+
+.font_heavy{
+    font-weight: 700;
+}
+
+.no_link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.navbar_links{
+    margin: 0 12px
+}
+.margin_auto{
+    margin: auto;
+}
+
+.margin_vertical_auto{
+    margin: auto 0;
+}
+
+.element_distance{
+    margin: 12px ;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif
+}
+
+
+@media only screen and (max-width: 670px){
+    #side_logo, #desktop_navbar{
+        display: none;
+    }
+
+    #three_bars{
+        display: flex;
+    }
+
+    .right_form{
+        width: 100% !important;
+    }
+}

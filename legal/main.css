@@ -1,0 +1,20 @@
+.heading{
+    font-weight: 500;
+}
+
+.text{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.text_margin{
+    margin-top: 12px;
+}
+
+.text_container{
+    border-top: 1px solid #000;
+}
+
+h3{
+    font-size: 18px;
+}
