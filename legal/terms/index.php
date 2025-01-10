@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to MathSolver.in | We're approaching infinity</title>
+  <title>Welcome to Calculars | We're approaching infinity</title>
   
   
   <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
@@ -11,12 +11,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=prompt_suggestion" />  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  <link rel="stylesheet" href="http://localhost/main.css">
-  <link rel="stylesheet" href="http://localhost/legal/main.css">
+  <link rel="stylesheet" href="https://shayeq01.github.io/calculars/main.css">
+  <link rel="stylesheet" href="https://shayeq01.github.io/calculars/legal/main.css">
 
-  <script type="module" src="http://localhost/js/db.js"></script>
+  <script type="module" src="https://shayeq01.github.io/calculars/js/db.js"></script>
 
-  <link rel="icon" type="image/x-icon" href="http://localhost/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="https://shayeq01.github.io/calculars/images/favicon.ico">
 </head>
 <body class="bg">
   <div class="montserrat">
@@ -40,7 +40,7 @@
           <div class="flexbox flex_different">
             <div class="">Here is the QR code you may scan to support our efforts. After you make the payment, take the extra care to send an email to Shayeq at <span>shayeq01@protonmail.com</span></span></div>
             <div class="standard_padding complete_width flexbox">            
-              <img src="http://localhost/images/payment-qr.jpeg" class="margin_auto" style="margin-left: auto;" alt="Here is the UPI QR code for donation.">
+              <img src="https://shayeq01.github.io/calculars/images/payment-qr.jpeg" class="margin_auto" style="margin-left: auto;" alt="Here is the UPI QR code for donation.">
             </div>
           </div>
         </div>
@@ -53,14 +53,14 @@
     <!--This is the navbar-->
     <div class="flexbox navbar" id="navbar" style="border-bottom: 1px solid #dddfe2;">
       <div class="">
-        <a href="https://MathSolver.in.in" class="no_link text">
+        <a href="https://Calculars.in" class="no_link text">
           <div class="flexbox">
             <div class="margin_auto">
-              <img src="http://localhost/images/favicon.ico" class="link_button_main" style="height: 34px; width: 34px;" alt="" srcset="">
+              <img src="https://shayeq01.github.io/calculars/images/favicon.ico" class="link_button_main" style="height: 34px; width: 34px;" alt="" srcset="">
             </div>
             <div class="flexbox" style="font-size: 1.5rem; margin: auto;">
               <div class="margin_auto">
-                <div class="">MathSolver.in</div>
+                <div class="">Calculars</div>
               </div>
               <div class="navbar"> $$(&nbsp;version \approx -\infty \\)$$</div>
             </div>
@@ -201,7 +201,7 @@
                             </li>
                             
                             <li class="flexbox text_margin">
-                                <div class="">You may input mathematical problems and utilize solutions as provided by the MathSolver.in. However, you must understand that being an experimental version, we do not guarantee the accuracy or completeness of the solutions.</div>
+                                <div class="">You may input mathematical problems and utilize solutions as provided by the Calculars. However, you must understand that being an experimental version, we do not guarantee the accuracy or completeness of the solutions.</div>
                             </li>
                           </ul>
                         </div>
@@ -224,7 +224,7 @@
                                 </li>
                                 
                                 <li class="flexbox text_margin">
-                                    <div class="">Input inappropriate, harmful, or malicious content into the MathSolver.in.</div>
+                                    <div class="">Input inappropriate, harmful, or malicious content into the Calculars.</div>
                                 </li>
                             </ul>
                         </div>
@@ -242,7 +242,7 @@
                     <div class="text_margin">
                       <div class="">
                         <ul class="">
-                          <li class="text_margin">All intellectual property rights in the Service, including the LLM and related technologies, are owned by Mathsolver.in and should not be used without prior consent.</li>
+                          <li class="text_margin">All intellectual property rights in the Service, including the LLM and related technologies, are owned by Calculars and should not be used without prior consent.</li>
                           <li class="text_margin">Users are granted a limited, non-exclusive, and revocable license to use the Service for its intended purpose.</li>  
                         </ul>
                       </div>
@@ -271,7 +271,7 @@
                   <div class="standard_padding">
                     <h2 class="">Idemnification</h2>
                     <div class="text_margin">
-                      <div class="">You agree to indemnify and hold MathSolver.in harmless from any claims, damages, or expenses resulting from your use of the Service or breach of these Terms.</div>
+                      <div class="">You agree to indemnify and hold Calculars harmless from any claims, damages, or expenses resulting from your use of the Service or breach of these Terms.</div>
                     </div>
                   </div>
                   <!--End of section--> 
@@ -345,6 +345,6 @@
   </div>
 </body>
 
-<script src="http://localhost/js/helper.js"></script>
+<script src="https://shayeq01.github.io/calculars/js/helper.js"></script>
 
 </html>
