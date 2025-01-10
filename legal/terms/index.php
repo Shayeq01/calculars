@@ -50,13 +50,68 @@
 
   <!--This is the start of the regular page.-->
   <div class="bg text roboto complete_height flexbox flex_different" id="regular">
-    <!--This is the navbar-->
+    <!--This is the mobile navbar-->
+    <div class="complete_height fixed_box flexbox flex_different bg_dark hidden" id="mobile_navbar" style="z-index: 3; width: 25%">
+      <div class="overflow_x_hidden flexbox flex_different">
+        <div class="standard_padding flexbox flex_different">
+          <a href="" class="no_link text navbar_links_hover standard_padding textbox_radius">
+            <div class="flexbox">
+              <div class=""><i class="fi-xnlrxl-arrow-simple"></i></div>
+              <div class="standard_margin_left">Suggest a Feature</div>
+            </div>
+          </a>
+
+          <a href="" class="no_link text navbar_links_hover standard_margin_top_navbar standard_padding textbox_radius">
+            <div class="flexbox">
+              <div class=""><i class="fi-xnsuxl-team-solid"></i></div>
+              <div class="standard_margin_left">Browse Groups</div>
+            </div>
+          </a>
+          
+          <!--These are the navbar elements that will be shown if the user is unregistered-->
+          <div class="complete_width flexbox flex_different">
+            <a href="" class="no_link text navbar_links_hover complete_width standard_margin_top_navbar standard_padding textbox_radius">
+              <div class="flexbox">
+                <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
+                <div class="standard_margin_left">Login</div>
+              </div>
+            </a>
+
+            <a href="" class="no_link text navbar_links_hover complete_width standard_margin_top_navbar standard_padding textbox_radius">
+              <div class="flexbox">
+                <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
+                <div class="standard_margin_left">Register </div>
+              </div>
+            </a>
+          </div>
+
+          
+          <!--These are the navbar elements that will be shown if the user is registered-->
+          <div class="complete_width flexbox flex_different hidden">
+            <a href="" class="no_link text navbar_links_hover complete_width standard_margin_top_navbar standard_padding textbox_radius">
+              <div class="flexbox">
+                <div class=""><i class="fi-xnsuxl-settings-solid"></i></div>
+                <div class="standard_margin_left">Settings</div>
+              </div>
+            </a>
+
+            <a href="" class="no_link text navbar_links_hover complete_width standard_margin_top_navbar standard_padding textbox_radius">
+              <div class="flexbox">
+                <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
+                <div class="standard_margin_left">Logout</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--This is the desktop horizontal navbar-->
     <div class="flexbox navbar" id="navbar" style="border-bottom: 1px solid #dddfe2;">
       <div class="">
         <a href="https://Calculars.in" class="no_link text">
           <div class="flexbox">
             <div class="margin_auto">
-              <img src="https://shayeq01.github.io/calculars/images/favicon.ico" class="link_button_main" style="height: 34px; width: 34px;" alt="" srcset="">
+              <img src="http://localhost/images/favicon.ico" class="link_button_main" style="height: 34px; width: 34px;" alt="" srcset="">
             </div>
             <div class="flexbox" style="font-size: 1.5rem; margin: auto;">
               <div class="margin_auto">
@@ -68,20 +123,20 @@
         </a>
       </div>
       
-      <div class="flexbox">
-        
-        <a href="" id="openDonationBox" onclick="this.preventDefault();" class="no_link text navbar_links">
+      <div class="flexbox" id="desktop_navbar">
+        <a href="" id="suggestFeature" class="navbar_links_hover no_link text navbar_links standard_padding">
           <div class="flexbox">
+            <div class=""><i class="fi-xnlrxl-arrow-simple"></i></div>
             <div class="navbar_links">Suggest a Feature</div>
           </div>
         </a>
         <div class="navbar_links"></div>
         <div class="navbar_links"></div>
   
-        <a href="" id="openDonationBox" onclick="this.preventDefault();" class="no_link text navbar_links">
+        <a href="" class="navbar_links_hover no_link text navbar_links standard_padding">
           <div class="flexbox">
-            <div class=""><i class="fi-xnsuxl-rupee"></i></div>
-            <div class="navbar_links">Donate to Support our Efforts</div>
+            <div class=""><i class="fi-xnsuxl-team-solid"></i></div>
+            <div class="navbar_links">Groups</div>
           </div>
         </a>
         <div class="navbar_links"></div>
@@ -89,7 +144,7 @@
   
         <!--These are the navbar elements that will be shown if the user is unregistered-->
         <div class="flexbox ">
-          <a href="https://" class="no_link text navbar_links" id="openSettings">
+          <a href="https://" class="navbar_links_hover no_link text navbar_links standard_padding">
             <div class="flexbox">
               <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
               <div class="navbar_links">Register</div>
@@ -98,7 +153,7 @@
           <div class="navbar_links"></div>
           <div class="navbar_links"></div>
   
-          <a href="https://" class="no_link text navbar_links" id="logout">
+          <a href="https://" class="navbar_links_hover no_link text navbar_links standard_padding">
             <div class="flexbox">
               <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
               <div class="navbar_links">Login</div>
@@ -106,8 +161,10 @@
           </a>
         </div>
         
+
+        <!--These are the navbar elements that will be shown if the user is registered-->
         <div class="flexbox hidden">
-          <a href="https://" class="no_link text navbar_links" id="openSettings">
+          <a href="https://" class="navbar_links_hover no_link text navbar_links standard_padding" id="openSettings">
             <div class="flexbox">
               <div class=""><i class="fi-xnsuxl-settings-solid"></i></div>
               <div class="navbar_links">Settings</div>
@@ -116,12 +173,19 @@
           <div class="navbar_links"></div>
           <div class="navbar_links"></div>
   
-          <a href="https://" class="no_link text navbar_links" id="logout">
+          <a href="https://" class="navbar_links_hover no_link text navbar_links standard_padding" id="logout">
             <div class="flexbox">
               <div class=""><i class="fi-xnsuxl-sign-out-solid"></i></div>
               <div class="navbar_links">Logout</div>
             </div>
           </a>
+        </div>
+
+      </div>
+      
+      <div class="hidden">
+        <div id="navbar_open_button three_bars" class="link_button_main hover_pointer standard_padding bg_dark hover_pointer border_radius">
+          <div class=""><i class="fi-xnsuxl-three-bars-solid"></i></div>
         </div>
       </div>
     </div>
