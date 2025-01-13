@@ -1,0 +1,17 @@
+.profile_pics{
+    height: 200px;
+    width: 200px;
+}
+
+.left_col{
+    width: 30%
+}
+
+.right_col{
+    margin-left: calc(30% + 12px);
+}
+
+.font_chat{
+    font-size: 24px;
+    font-weight: 600;
+}

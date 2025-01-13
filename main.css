@@ -4,6 +4,11 @@
 .bg{
     background-color: rgba(33, 33, 33, 0.9);
 }
+
+.bg1{
+    background-color: #212121;
+}
+
 .input_bg{
     background-color: #212121 !important;
 }
@@ -16,9 +21,21 @@
     background-color: #3797f0;
 }
 
+.transparent_padding{
+    background-color: transparent;
+}
+
 .center{
     color: white;
     text-align: center;
+}
+
+.white_text{
+    color: #ffffff;
+}
+
+.inherit_color{
+    color: inherit;
 }
 
 .flexbox{
@@ -63,12 +80,21 @@
     height: 100%
 }
 
+.dimension_profile_pics{
+    height: 36px;
+    width: 36px;
+}
+
 .complete_width{
     width: 100%;
 }
 
 .no_resize{
     resize: none;;
+}
+
+.outline_none{
+    outline: none
 }
 
 .text{
@@ -87,12 +113,24 @@
     padding: 14px;
 }
 
+.padding_top_none{
+    padding-top: 0
+}
+
+.padding_bottom_none{
+    padding-bottom: 0
+}
+
 .no_left_padding{
     padding-left: 0;
 }
 
 .no_link:hover{
     text-decoration: none;
+}
+
+.standard_link_highlight:hover{
+    text-decoration: underline #fff !important
 }
 
 .hover_pointer:hover{
@@ -109,7 +147,11 @@
 }
 
 .standard_margin_right{
-    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.standard_margin_bottom{
+    margin-bottom: 12px;
 }
 
 .standard_margin_top{
@@ -120,7 +162,15 @@
     margin: auto 0;
 }
 
-.textbox_radius{
+.margin_horizontal_auto{
+    margin: 0 auto;
+}
+
+.center_content{
+    justify-content: center;
+}
+
+.textbox_radius, .standard_border_radius{
     border-radius: 12px;
 }
 
@@ -132,16 +182,27 @@
 
 .standard_border{border: 1px solid #fff}
 
+.standard_border_bottom{border-bottom: 1px solid #fff}
+
+.standard_border_top{border-top: 1px solid #fff}
+
+.standard_border_right{border-right: 1px solid #fff}
+
 .navbar{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .heading_size{
     font-size: 3rem;
 }
 
+
 .font_heavy{
     font-weight: 700;
+}
+
+.font_light_important{
+    font-weight: 500 !important;
 }
 
 .no_link{
@@ -153,6 +214,11 @@
 .navbar_links_hover:hover{
     background-color: #212121;
 }
+
+.dropdown:hover, .highlight:hover{
+    background-color: #212121;
+}
+
 
 .navbar_links{
     margin: 0 12px
@@ -184,12 +250,12 @@
 }
 
 
-@media only screen and (max-width: 670px){
-    #side_logo, #desktop_navbar{
+@media only screen and (max-width: 910px){
+    #side_logo, #desktop_navbar, .hiddenSmallScreen{
         display: none;
     }
 
-    #three_bars{
+    .display_flex_smallScreen{
         display: flex;
     }
 
